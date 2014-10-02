@@ -1,0 +1,15 @@
+TODO
+===============
+1. test bufferbloat avoidance on OF13 using 2 equal bw queues
+2. traffic classification
+  1. empirical method, run a separate linux namespace
+  2. think about the fish eye (zooming in zooming out approach to statistics)
+3. traffic placement
+  1. extend ECMP (it may not work in general topologies)
+  2. randomized algorithm (for short flows) 
+  3. something like DevoFlows or Hedera for long flows
+4. traffic differentiation
+  1. start with 2 queues to avoid bufferbloat
+  2. vary resource allocation dynamically
+  3. transparent tcp split / multipath tcp
+5. validation in mininet, simulator, matlab and GENI/FIBRE
