@@ -12,12 +12,9 @@ install grub loader
 boot
 
 ========================================= BASIC PACKAGES
-sudo apt-get update
+sudo apt-get update 
 sudo apt-get upgrade
-sudo apt-get install iproute
-sudo apt-get install ubuntu-extras-keyring
-sudo apt-get install vim
-sudo apt-get install zip
+sudo apt-get install iproute ubuntu-extras-keyring vim zip
 sudo apt-get install ntp openssh-server rsync colordiff pwgen mlocate
 sudo updatedb
 sudo ifconfig eth1 up
